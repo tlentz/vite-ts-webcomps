@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS - Webcomps</title>
+  </head>
+  <body>
+    <p>without inital count</p>
+    <webcomp-1></webcomp-1>
+    <p>With initial count = 25</p>
+    <webcomp-1 initialCount="25"></webcomp-1>
+
+    <p>without inital string</p>
+    <webcomp-2></webcomp-2>
+    <p>With initial string = "hello"</p>
+    <webcomp-2 initialString="hello"></webcomp-2>
+
+
+    <!-- //=============================================================================================== -->
+    <!-- // webcomp-1 -->
+    <!-- //=============================================================================================== -->
+    <!-- use for dev build (comment out when using prod build) -->
+    <script type="module" src="/src/webcomp-1/index.tsx"></script>
+    <!-- use for prod build (comment out when using dev build) -->
+    <!-- <script type="module" src="/dist/webcomp-1.js"></script> -->
+
+    <!-- //=============================================================================================== -->
+    <!-- // webcomp-2 -->
+    <!-- //=============================================================================================== -->
+    <!-- use for dev build (comment out when using prod build) -->
+    <script type="module" src="/src/webcomp-2/index.tsx"></script>
+    <!-- use for prod build (comment out when using dev build) -->
+    <!-- <script type="module" src="/dist/webcomp-2.js"></script> -->
+  </body>
+</html>
